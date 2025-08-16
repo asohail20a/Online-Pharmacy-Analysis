@@ -14,9 +14,9 @@ The analysis covers **Orders, Products, and Pharmacies performance**.
 ```
 📁 Project Folder
  ┣ 📄 README.md              # Project documentation
- ┣ 📄 SQL_Queries.sql        # SQL scripts used for analysis
- ┣ 📊 Tableau_Dashboard.twbx # Tableau packaged workbook
- ┗ 📄 Data/                  # Dataset files (CSV/Excel or DB extracts)
+ ┣ 📄 SQL_Assessment.sql        # SQL scripts used for analysis
+ ┣ 📊 Tableau_Project.twbx # Tableau packaged workbook
+ ┗ 📄 Data                  # Dataset files (Excel / DB extracts)
 ```
 
 ---
@@ -54,7 +54,7 @@ The dataset contains multiple relational tables:
 - ✅ Delivery time = time between "Accepted" and "Delivered"  
 - ✅ Top 5 order states before rejection  
 
-👉 All queries are included in: `SQL_Queries.sql`
+👉 All queries are included in: `SQL_Assessment.sql`
 
 ---
 
@@ -66,25 +66,24 @@ The dataset contains multiple relational tables:
 - 📌 **Total Sales Value**  
 - 📌 **Top Pharmacies** (by orders & fulfilment)  
 - 📌 **Top Products** (by orders & sales)  
-- 📌 **Monthly Trends** (orders, sales, fulfilment rate)  
-- 📌 **Reasons for unfulfilled orders**  
+- 📌 **Monthly Trends** (orders, sales)  
+- 📌 **Three different Order Sources**  
 
 ### **Design**
 - **Top section (KPIs):** Total Orders | Fulfilment Rate | Sales Value  
-- **Middle section (Performance):** Bar charts for Top Pharmacies & Top Products  
-- **Bottom section (Trends & Insights):** Line chart for monthly performance + Pie/Bar chart for rejection reasons  
-- **Filters:** Date Range, Pharmacy, Product  
+- **Middle section (Performance):** Column charts for Top Pharmacies & Top Products  
+- **Bottom section (Trends & Insights):** Line chart for monthly performance + Pie chart for order sources
 
-👉 Dashboard file: `Tableau_Dashboard.twbx`
+👉 Dashboard file: `Tableau_Project.twbx`
 
 ---
 
 ## 🔑 Key Insights
-- The overall fulfilment rate = **X%**  
-- Top 5 pharmacies contribute to **Y% of total orders**  
-- Top 5 products generate **Z% of total sales value**  
+- The overall fulfilment rate = **47%**  
+- Top 5 pharmacies contribute to **38% of total orders**  
+- Top 5 products generate **42% of total sales value**  
 - Average order value shows an increasing/decreasing trend month over month  
-- The most common rejection reasons are **[Reason1, Reason2, Reason3]**
+- The most common rejection reasons are **[Rejected By Pharmacy, Canceled, Rejected By Vezeeta]**
 
 ---
 
