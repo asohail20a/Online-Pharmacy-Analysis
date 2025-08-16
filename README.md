@@ -14,9 +14,9 @@ The analysis covers **Orders, Products, and Pharmacies performance**.
 ```
 📁 Project Folder
  ┣ 📄 README.md              # Project documentation
- ┣ 📄 SQL_Assessment.sql        # SQL scripts used for analysis
- ┣ 📊 Tableau_Project.twbx # Tableau packaged workbook
- ┗ 📄 Data                  # Dataset files (Excel / DB extracts)
+ ┣ 📄 SQL_Assessment.sql     # SQL scripts used for analysis
+ ┣ 📊 Tableau_Project.twbx   # Tableau packaged workbook
+ ┗ 📄 Data                   # Dataset files (Excel / DB extracts)
 ```
 
 ---
@@ -73,6 +73,7 @@ The dataset contains multiple relational tables:
 - **Top section (KPIs):** Total Orders | Fulfilment Rate | Sales Value  
 - **Middle section (Performance):** Column charts for Top Pharmacies & Top Products  
 - **Bottom section (Trends & Insights):** Line chart for monthly performance + Pie chart for order sources
+
 
 ![Dashboard Preview](Screenshot%202025-08-15%20233919.png)
 
