@@ -75,6 +75,7 @@ The dataset contains multiple relational tables:
 - **Bottom section (Trends & Insights):** Line chart for monthly performance + Pie chart for order sources
 
 👉 Dashboard file: `Tableau_Project.twbx`
+👉 ![Dashboard Preview](Screenshot%202025-08-15%20233919.png)
 
 ---
 
