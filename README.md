@@ -75,7 +75,7 @@ The dataset contains multiple relational tables:
 - **Bottom section (Trends & Insights):** Line chart for monthly performance + Pie chart for order sources
 
 
-![Dashboard Preview](Screenshot%202025-08-15%20233919.png)
+![Dashboard Preview](Screenshot%202025-08-16%20161502.png)
 
 ---
 
@@ -84,7 +84,7 @@ The dataset contains multiple relational tables:
 - Top 5 pharmacies contribute to **38% of total orders**  
 - Top 5 products generate **42% of total sales value**  
 - Average order value shows an increasing/decreasing trend month over month  
-- The most common rejection reasons are **[Rejected By Pharmacy, Canceled, Rejected By Vezeeta]**
+- The most common rejection reasons are **[Rejected By Pharmacy, Canceled, Not Completed]**
 
 ---
 
